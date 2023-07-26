@@ -1,5 +1,5 @@
         Title: Crypto Address Messaging System (CryptoMessages)
-        Author: Jeremy Johnson (J-Dog)
+        Author: Jeremy Johnson (J-Dog) & Javier Varona
         Created: 2023-07-26
 
 # Abstract
