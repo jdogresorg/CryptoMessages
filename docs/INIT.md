@@ -11,10 +11,10 @@ This command establishes a shared key to be used to exchange messages between ad
 
 ## Formats
 
-### Version `0`
+### Version `0` - REQUEST
 - `VERSION|TYPE|ADDRESS|KEY`
 
-### Version `1`
+### Version `1` - RESPONSE
 - `VERSION|TYPE|ADDRESS|KEY`
 
 ## Examples
