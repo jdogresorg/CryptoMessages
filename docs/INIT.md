@@ -19,12 +19,12 @@ This command establishes a shared key to be used to exchange messages between ad
 
 ## Examples
 ```
-cm:INIT|0|0|1JDogZS6tQcSxwfxhv6XKKjcyicYA4Feev|PUBLIC_KEY_GOES_KEY
+cm:INIT|0|0|1JDogZS6tQcSxwfxhv6XKKjcyicYA4Feev|PUBLIC_KEY_GOES_HERE
 This example requests to securely exchange messages with address 1JDogZS6tQcSxwfxhv6XKKjcyicYA4Feev
 ```
 
 ```
-cm:INIT|1|0|1Donatet2LrNpuWByAnH8gc9Wh9zSzZuLC|PUBLIC_KEY_GOES_KEY
+cm:INIT|1|0|1Donatet2LrNpuWByAnH8gc9Wh9zSzZuLC|PUBLIC_KEY_GOES_HERE
 This example responds to the above request to securely exchange messages with address 1JDogZS6tQcSxwfxhv6XKKjcyicYA4Feev
 ```
 
