@@ -5,17 +5,17 @@ This command sends a message to the `DESTINATION` address.
 | Name                | Type   | Description                                          |
 | ------------------- | ------ | ---------------------------------------------------- |
 | `VERSION`           | String | Broadcast Format Version                             |
-| `DESTINATION`       | String | Address of the message recipient                     |
+| `ADDRESS`           | String | Address of the message recipient                     |
 | `PLAINTEXT_MESSAGE` | String | Plaintext message (visible to all!)                  |
 | `ENCRYPTED_MESSAGE` | String | Message encryted with shared key from `INIT` command |
 
 ## Formats
 
 ### Version `0`
-- `VERSION|DESTINATION|PLAINTEXT_MESSAGE`
+- `VERSION|ADDRESS|PLAINTEXT_MESSAGE`
 
 ### Version `1`
-- `VERSION|DESTINATION|ENCRYPTED_MESSAGE`
+- `VERSION|ADDRESS|ENCRYPTED_MESSAGE`
 
 ## Examples
 ```
