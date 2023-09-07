@@ -19,7 +19,7 @@ This spec can be extended in the future to allow for additional options and form
 
 - `broadcast` - A general purpose transaction type which allows broadcasting of a message to the Counterparty platform
 - `INIT` - A specially formatted `broadcast` which establishes a shared key to use for decrypting messages
-- `MESSAGE` - A specially formatted `broadcast` which passes a message to a `DESTINATION` address 
+- `MESSAGE` - A specially formatted `broadcast` which passes a message to an address
 
 # Specification
 This spec defines 2 formats `INIT` and `MESSAGE` which allows for both plaintext and encrypted messaging.
