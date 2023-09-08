@@ -5,7 +5,7 @@ This command establishes a shared key to be used to exchange messages between ad
 | Name          | Type   | Description                               |
 | --------- | ------ | ----------------------------------------- |
 | `VERSION` | String | Broadcast Format Version                  |
-| `TYPE`    | String | Encryption Type (0=AES, ...)              |
+| `TYPE`    | String | Encryption Type (0=ECDH, 1=AES)           |
 | `ADDRESS` | String | Address of the message recipient          |
 | `KEY`     | String | public key to be used to exchange messages|
 
