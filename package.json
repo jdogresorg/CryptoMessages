@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "crypto-browserify": "^3.12.0"
+  }
+}
